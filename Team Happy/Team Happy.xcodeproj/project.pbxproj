@@ -14,6 +14,8 @@
 		813EE5401B2F088900C5DE07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813EE53F1B2F088900C5DE07 /* Images.xcassets */; };
 		813EE5431B2F088900C5DE07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813EE5411B2F088900C5DE07 /* LaunchScreen.xib */; };
 		813EE54F1B2F088900C5DE07 /* Team_HappyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE54E1B2F088900C5DE07 /* Team_HappyTests.m */; };
+		813EE55C1B2F156B00C5DE07 /* EndscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE55B1B2F156B00C5DE07 /* EndscreenView.m */; };
+		813EE55F1B2F162F00C5DE07 /* EndscreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE55E1B2F162F00C5DE07 /* EndscreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		813EE5481B2F088900C5DE07 /* Team HappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Team HappyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		813EE54D1B2F088900C5DE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813EE54E1B2F088900C5DE07 /* Team_HappyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Team_HappyTests.m; sourceTree = "<group>"; };
+		813EE55A1B2F156B00C5DE07 /* EndscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndscreenView.h; sourceTree = "<group>"; };
+		813EE55B1B2F156B00C5DE07 /* EndscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndscreenView.m; sourceTree = "<group>"; };
+		813EE55D1B2F162F00C5DE07 /* EndscreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndscreenViewController.h; sourceTree = "<group>"; };
+		813EE55E1B2F162F00C5DE07 /* EndscreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndscreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,10 @@
 		813EE5311B2F088900C5DE07 /* Team Happy */ = {
 			isa = PBXGroup;
 			children = (
+				813EE5591B2F110900C5DE07 /* Controllers */,
+				813EE5581B2F10F800C5DE07 /* Views */,
 				813EE5361B2F088900C5DE07 /* AppDelegate.h */,
 				813EE5371B2F088900C5DE07 /* AppDelegate.m */,
-				813EE5391B2F088900C5DE07 /* ViewController.h */,
-				813EE53A1B2F088900C5DE07 /* ViewController.m */,
 				813EE53C1B2F088900C5DE07 /* Main.storyboard */,
 				813EE53F1B2F088900C5DE07 /* Images.xcassets */,
 				813EE5411B2F088900C5DE07 /* LaunchScreen.xib */,
@@ -117,6 +123,26 @@
 				813EE54D1B2F088900C5DE07 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		813EE5581B2F10F800C5DE07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				813EE55A1B2F156B00C5DE07 /* EndscreenView.h */,
+				813EE55B1B2F156B00C5DE07 /* EndscreenView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		813EE5591B2F110900C5DE07 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				813EE5391B2F088900C5DE07 /* ViewController.h */,
+				813EE53A1B2F088900C5DE07 /* ViewController.m */,
+				813EE55D1B2F162F00C5DE07 /* EndscreenViewController.h */,
+				813EE55E1B2F162F00C5DE07 /* EndscreenViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813EE55C1B2F156B00C5DE07 /* EndscreenView.m in Sources */,
 				813EE53B1B2F088900C5DE07 /* ViewController.m in Sources */,
+				813EE55F1B2F162F00C5DE07 /* EndscreenViewController.m in Sources */,
 				813EE5381B2F088900C5DE07 /* AppDelegate.m in Sources */,
 				813EE5351B2F088900C5DE07 /* main.m in Sources */,
 			);

@@ -7,7 +7,10 @@
 //
 
 #import "EndscreenViewController.h"
+@interface EndscreenViewController ()
+@property (nonatomic, strong) UIImageView *arrow_left;
 
+@end
 @implementation EndscreenViewController
 
 - (instancetype)initWithText:(NSString *)text{
@@ -19,6 +22,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UITapGestureRecognizer *tapLeftBtn = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapDetectedLeft)];
+    tapLeftBtn.numberOfTapsRequired = 1;
+    [self.arrow_left setUserInteractionEnabled:YES];
+    [self.arrow_left addGestureRecognizer:tapLeftBtn];
+    self.arrow_left.frame = CGRectMake(7, self.view.frame.size.height-55, 48, 48);
+    [self.view addSubview:self.arrow_left];
     self.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     NSLog(@"Endscreenviewcontroller loaded");
     self.view.backgroundColor = [UIColor darkGrayColor];
@@ -27,7 +36,14 @@
     [self.view addSubview:self.printBtn];
 }
 
-
+- (UIImageView *)arrow_left {
+    if (_arrow_left) {
+        return _arrow_left;
+    }
+    _arrow_left = UIImageView.new;
+    _arrow_left.image = [UIImage imageNamed:@"arrow_left"];
+    return _arrow_left;
+}
 - (UIButton *)printBtn {
     if (_printBtn) {
         return _printBtn;
@@ -42,7 +58,9 @@
 //    [_payBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
     return _printBtn;
 }
-
+-(void)tapDetectedLeft{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 - (void)printHappyButton:(UIButton *)tapBtn withEvent:(UIEvent *)event {
     if ([UIPrintInteractionController isPrintingAvailable])
     {

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface BackgroundViewController : UIViewController
+#import "FXImageView.h"
+#import "iCarousel.h"
+@interface BackgroundViewController : UIViewController <iCarouselDataSource>
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81344A981B30578900ED1E4B /* Backgrounds in Resources */ = {isa = PBXBuildFile; fileRef = 81344A971B30578900ED1E4B /* Backgrounds */; };
+		81344A9B1B30715D00ED1E4B /* CustomizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81344A9A1B30715D00ED1E4B /* CustomizeViewController.m */; };
 		813EE5351B2F088900C5DE07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE5341B2F088900C5DE07 /* main.m */; };
 		813EE5381B2F088900C5DE07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE5371B2F088900C5DE07 /* AppDelegate.m */; };
 		813EE53B1B2F088900C5DE07 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE53A1B2F088900C5DE07 /* MainViewController.m */; };
@@ -33,6 +35,9 @@
 /* Begin PBXFileReference section */
 		691DAF9E987FFF5C22E0CC73 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		80E56EF8E620A32089453FB9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		81344A971B30578900ED1E4B /* Backgrounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Backgrounds; sourceTree = "<group>"; };
+		81344A991B30715D00ED1E4B /* CustomizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizeViewController.h; sourceTree = "<group>"; };
+		81344A9A1B30715D00ED1E4B /* CustomizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizeViewController.m; sourceTree = "<group>"; };
 		813EE52F1B2F088900C5DE07 /* Team Happy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Team Happy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		813EE5331B2F088900C5DE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813EE5341B2F088900C5DE07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +111,7 @@
 		813EE5311B2F088900C5DE07 /* Team Happy */ = {
 			isa = PBXGroup;
 			children = (
+				81344A971B30578900ED1E4B /* Backgrounds */,
 				813EE5591B2F110900C5DE07 /* Controllers */,
 				813EE5581B2F10F800C5DE07 /* Views */,
 				813EE5361B2F088900C5DE07 /* AppDelegate.h */,
@@ -162,6 +168,8 @@
 				813EE55E1B2F162F00C5DE07 /* EndscreenViewController.m */,
 				813EE5601B300E7B00C5DE07 /* BackgroundViewController.h */,
 				813EE5611B300E7B00C5DE07 /* BackgroundViewController.m */,
+				81344A991B30715D00ED1E4B /* CustomizeViewController.h */,
+				81344A9A1B30715D00ED1E4B /* CustomizeViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -259,6 +267,7 @@
 			files = (
 				813EE53E1B2F088900C5DE07 /* Main.storyboard in Resources */,
 				813EE5431B2F088900C5DE07 /* LaunchScreen.xib in Resources */,
+				81344A981B30578900ED1E4B /* Backgrounds in Resources */,
 				813EE5401B2F088900C5DE07 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +324,7 @@
 				813EE55F1B2F162F00C5DE07 /* EndscreenViewController.m in Sources */,
 				813EE5381B2F088900C5DE07 /* AppDelegate.m in Sources */,
 				813EE5621B300E7B00C5DE07 /* BackgroundViewController.m in Sources */,
+				81344A9B1B30715D00ED1E4B /* CustomizeViewController.m in Sources */,
 				813EE5351B2F088900C5DE07 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

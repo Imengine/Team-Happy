@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     NSLog(@"Endscreenviewcontroller loaded");
     self.view.backgroundColor = [UIColor darkGrayColor];
     [self.printBtn addTarget:self action:@selector(printHappyButton:withEvent:) forControlEvents:UIControlEventTouchUpInside];
@@ -71,7 +72,7 @@
                 NSLog(@"Printing could not complete because of error: %@", error);
             }
         };
-        [pic presentFromRect:CGRectMake(200, 200, 200, 200) inView:self.view animated:YES completionHandler:completionHandler];
+        [pic presentFromRect:CGRectMake((self.view.frame.size.width/2)-200, 0, 400, 400) inView:self.view animated:YES completionHandler:completionHandler];
        // [pic presentAnimated:YES completionHandler:completionHandler];
 
     } else {

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		81344A981B30578900ED1E4B /* Backgrounds in Resources */ = {isa = PBXBuildFile; fileRef = 81344A971B30578900ED1E4B /* Backgrounds */; };
 		81344A9B1B30715D00ED1E4B /* CustomizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81344A9A1B30715D00ED1E4B /* CustomizeViewController.m */; };
+		81344A9D1B316BE200ED1E4B /* TopImages in Resources */ = {isa = PBXBuildFile; fileRef = 81344A9C1B316BE200ED1E4B /* TopImages */; };
 		813EE5351B2F088900C5DE07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE5341B2F088900C5DE07 /* main.m */; };
 		813EE5381B2F088900C5DE07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE5371B2F088900C5DE07 /* AppDelegate.m */; };
 		813EE53B1B2F088900C5DE07 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EE53A1B2F088900C5DE07 /* MainViewController.m */; };
@@ -38,6 +39,7 @@
 		81344A971B30578900ED1E4B /* Backgrounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Backgrounds; sourceTree = "<group>"; };
 		81344A991B30715D00ED1E4B /* CustomizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizeViewController.h; sourceTree = "<group>"; };
 		81344A9A1B30715D00ED1E4B /* CustomizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizeViewController.m; sourceTree = "<group>"; };
+		81344A9C1B316BE200ED1E4B /* TopImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TopImages; sourceTree = "<group>"; };
 		813EE52F1B2F088900C5DE07 /* Team Happy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Team Happy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		813EE5331B2F088900C5DE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813EE5341B2F088900C5DE07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		813EE5311B2F088900C5DE07 /* Team Happy */ = {
 			isa = PBXGroup;
 			children = (
+				81344A9C1B316BE200ED1E4B /* TopImages */,
 				81344A971B30578900ED1E4B /* Backgrounds */,
 				813EE5591B2F110900C5DE07 /* Controllers */,
 				813EE5581B2F10F800C5DE07 /* Views */,
@@ -268,6 +271,7 @@
 				813EE53E1B2F088900C5DE07 /* Main.storyboard in Resources */,
 				813EE5431B2F088900C5DE07 /* LaunchScreen.xib in Resources */,
 				81344A981B30578900ED1E4B /* Backgrounds in Resources */,
+				81344A9D1B316BE200ED1E4B /* TopImages in Resources */,
 				813EE5401B2F088900C5DE07 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

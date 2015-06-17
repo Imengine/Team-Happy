@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface CustomizeViewController : UIViewController
+#import "FXImageView.h"
+#import "iCarousel.h">
+@interface CustomizeViewController : UIViewController <iCarouselDataSource>
 - (instancetype)initWithImage:(UIImageView *)pinImage;
 @property (nonatomic, strong) UIImageView *pinImage;
 
